@@ -1,50 +1,78 @@
-# 📋 Simple Task Management Application
+# 📋 To-Do List Web Application
 
-## 📌 Objective
-This project is a **Simple Task Management Application** that allows users to manage their tasks efficiently. It provides basic CRUD operations and supports drag-and-drop functionality to manage task status between **Incomplete** and **Completed** sections. All data persists using **LocalStorage**.
-
----
-
-## ✅ Features
-
-### 1️⃣ Task Creation (Create)
-- Users can add new tasks with:
-    - Title (required)
-    - Description (optional)
-
-### 2️⃣ Task Listing (Read)
-- Tasks are displayed under two sections:
-    - 📋 **Incomplete Tasks**
-    - ✅ **Completed Tasks**
-
-### 3️⃣ Edit Task (Update)
-- Users can edit the **Title** and **Description** of tasks.
-
-### 4️⃣ Delete Task (Delete)
-- Users can delete any task from either section.
-
-### 5️⃣ Drag & Drop Functionality
-- Users can **drag and drop** tasks between **Incomplete** and **Completed** sections.
-- Task status updates automatically based on the section it is dropped into.
-
-### 6️⃣ Persistent Storage
-- All tasks and their statuses persist using **LocalStorage**.
-- Data remains after page reload.
-
-### 7️⃣ Toast Notifications
-- Toast notifications are displayed for the following actions:
-    - ✅ Task Created
-    - ✏️ Task Updated
-    - 🗑️ Task Deleted
-    - 🔄 Task Moved to Completed
-    - 🔄 Task Moved to Incomplete
+This is a responsive and modern **To-Do List Web App** built using **HTML**, **CSS**, and **JavaScript**. It helps users manage daily tasks efficiently with clean UI, drag-and-drop support, and local storage for persistence.
 
 ---
 
-## 🛠️ Technologies Used
-- HTML
-- CSS
-- JavaScript (Vanilla)
-- LocalStorage for data persistence
+## ✨ Features
+
+* ✅ **Task Creation** with title and description
+* 📄 **Task Listing**: Incomplete and Completed sections
+* ✏️ **Edit Task**: Update title and description
+* ❌ **Delete Task**
+* 🪚 **Drag-and-Drop** between sections
+* 📁 **Data Persistence** with localStorage
+* 🌟 **Theme Toggle** (Light/Dark) with saved preference
+* ⛰️ **Filter Tasks** by All, Completed, Pending
+* ☑️ **Stylish UI** and smooth user experience
+* 🎉 **Toast Notifications** for user feedback
 
 ---
+
+## 📅 Technologies Used
+
+* HTML
+* CSS (Responsive Design, Gradient Buttons, Shadows)
+* JavaScript (Vanilla JS, DOM Manipulation, Drag Events)
+* localStorage API
+
+---
+
+## 🔧 Setup Instructions
+
+1. **Clone the Repository**
+
+```bash
+git clone https://github.com/YOUR_USERNAME/Frontend-Tasks.git
+cd Frontend-Tasks/todo-app
+```
+
+2. **Open in Browser**
+
+Double-click `index.html` or use a Live Server extension in VS Code.
+
+3. **Start Managing Tasks!**
+
+---
+
+## 📈 Folder Structure
+
+```
+Frontend-Tasks/
+├── todo-app/
+│   ├── index.html
+│   ├── style.css
+│   ├── script.js
+│   └── README.md
+```
+
+---
+
+## 📍 Live Demo (Optional)
+
+You can deploy this project using GitHub Pages or Netlify:
+
+* GitHub Pages: `https://yourusername.github.io/Frontend-Tasks/todo-app/`
+* Netlify/Vercel: Upload your folder and get a live link.
+
+---
+
+## 🚀 Author
+
+**Satyawan Jadhav**
+[GitHub](https://github.com/jadhavsatyawan)
+[LinkedIn](https://www.linkedin.com/in/satyawan-jadhav-22a62921a/)
+
+---
+
+> ✨ This project was completed as part of a technical assessment to showcase frontend development skills. Feel free to explore and give feedback!

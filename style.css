@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.light {
+    background-color: #f0f0f0;
+    color: #222;
+}
+
+body.dark {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: inherit;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form {
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+input,
+button {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.filters button {
+    padding: 8px 12px;
+    border-radius: 6px;
+    background: #e0e0e0;
+    border: none;
+    cursor: pointer;
+}
+
+.filters button.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.task-sections {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.task-column {
+    flex: 1;
+    min-width: 300px;
+    background-color: #ffffff11;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+}
+
+.task-list {
+    list-style: none;
+    margin-top: 10px;
+    min-height: 100px;
+}
+
+.task {
+    padding: 12px;
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    cursor: grab;
+    transition: transform 0.2s;
+}
+
+body.dark .task {
+    background: #333;
+    color: #f9f9f9;
+}
+
+.task.dragging {
+    opacity: 0.6;
+}
+
+.toast {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #4CAF50;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    display: none;
+    z-index: 1000;
+}
